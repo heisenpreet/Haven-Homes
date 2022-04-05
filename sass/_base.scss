@@ -36,9 +36,9 @@ html {
   @media only screen and (max-width: $bp-largest) {
     font-size: 50%;
   }
-  @media only screen and (max-width: $bp-large) {
-    font-size: 40%;
-  }
+  // @media only screen and (max-width: $bp-large) {
+  //   font-size: 40%;
+  // }
 }
 body {
   font-family: $font-primary;
