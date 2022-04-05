@@ -4,6 +4,8 @@
   margin: 15rem 0;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 7rem;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 .home {
   background-color: $color-grey-light-1;
@@ -68,6 +70,10 @@
 
     p {
       font-size: 1.55rem;
+
+      @media only screen and (max-width: $bp-medium) {
+        font-size: 1.8rem;
+      }
     }
   }
 

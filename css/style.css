@@ -7,7 +7,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
   @media only screen and (max-width: 75em) {
     html {
       font-size: 50%; } }
@@ -98,6 +99,12 @@ body {
 .mt-hg {
   margin-bottom: 8rem; }
 
+@media only screen and (max-width: 37em) {
+  .margin-bottom {
+    margin-bottom: 3rem; }
+  .margin-bottom-large {
+    margin-bottom: 6rem; } }
+
 .sidebar {
   height: max-content;
   width: max-content;
@@ -149,6 +156,13 @@ body {
   .header__btn {
     align-self: start;
     justify-self: start; }
+    .header__btn:link, .header__btn:visited {
+      text-decoration: none;
+      color: #fff;
+      border: none;
+      font-weight: 400;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 1.7rem; }
   .header__seenon-text {
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
@@ -302,7 +316,9 @@ body {
   display: grid;
   margin: 15rem 0;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 7rem; }
+  grid-gap: 7rem;
+  overflow-y: scroll;
+  scroll-behavior: smooth; }
 
 .home {
   background-color: #f9f7f6;
@@ -352,6 +368,9 @@ body {
       height: 2rem; }
     .home__location p, .home__rooms p, .home__area p, .home__price p {
       font-size: 1.55rem; }
+      @media only screen and (max-width: 50em) {
+        .home__location p, .home__rooms p, .home__area p, .home__price p {
+          font-size: 1.8rem; } }
   .home__btn {
     grid-column: 1/-1; }
 

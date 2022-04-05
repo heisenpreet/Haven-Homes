@@ -87,3 +87,12 @@
 .mt-hg {
   margin-bottom: 8rem;
 }
+
+@media only screen and (max-width: $bp-small) {
+  .margin-bottom {
+    margin-bottom: 3rem;
+  }
+  .margin-bottom-large {
+    margin-bottom: 6rem;
+  }
+}

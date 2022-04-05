@@ -24,6 +24,17 @@
   &__btn {
     align-self: start;
     justify-self: start;
+
+    &:link,
+    &:visited {
+      text-decoration: none;
+
+      color: #fff;
+      border: none;
+      font-weight: 400;
+      font-family: $font-display;
+      font-size: 1.7rem;
+    }
   }
 
   &__seenon-text {
