@@ -36,4 +36,10 @@
   margin-right: auto;
   margin-left: auto;
   width: 70%;
+  a {
+    font-size: 1.4rem;
+    color: $color-grey-light-2;
+    margin: 2rem 0;
+    display: block;
+  }
 }

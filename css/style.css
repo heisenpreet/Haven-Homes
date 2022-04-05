@@ -463,3 +463,8 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 70%; }
+  .copyright a {
+    font-size: 1.4rem;
+    color: #aaa;
+    margin: 2rem 0;
+    display: block; }
