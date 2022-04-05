@@ -1,0 +1,30 @@
+.features {
+  grid-column: center-start/center-end;
+
+  margin: 15rem 0;
+
+  display: grid;
+  //grid-template-columns: repeat(3, 1fr);
+  //IMPORTANT RESPONSIVE GRID LAYOUT
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 6rem;
+  align-items: start;
+}
+.feature {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-column-gap: 2.5rem;
+
+  &__icon {
+    fill: $color-primary;
+    width: 4.5rem;
+    height: 4.5rem;
+    transform: translateY(-25%);
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    grid-column: 2;
+    max-width: 25ch;
+  }
+}
