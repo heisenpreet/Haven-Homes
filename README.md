@@ -14,5 +14,6 @@ This website was made as part of my personal portfolio. key features of this web
 ⭐ Animation using JAVASCRIPT for better performance 
 ⭐ Lazy Loading Images for better performance 
 ⭐ Use of better fonts styles and color-gradients across the page
-check the site here_
+
+check the site here:
 https://app.netlify.com/sites/harpreetsingh-haven-homes/settings/general
